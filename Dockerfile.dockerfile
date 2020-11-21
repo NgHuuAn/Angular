@@ -8,7 +8,7 @@ WORKDIR /usr/src/app
 
 ENV PATH /usr/src/app/node_modules/.bin:$PATH
 
-COPY ./public_html/* . 
+COPY . . 
 
 EXPOSE 4200
 
